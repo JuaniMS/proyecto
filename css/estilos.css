@@ -30,6 +30,10 @@ body{
     
   }
 
+  main {
+    background-image: url(../assets/image/head/wallpaperbetter.com_2560x1080.jpg);
+  }
+
 
   .fraseMain{
     
@@ -99,6 +103,12 @@ main{
 
 header {
   background-color: rgb(255, 255, 255);
+}
+
+.titulosCar{
+  display: flex;
+  color: azure;
+
 }
 
 
