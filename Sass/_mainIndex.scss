@@ -1,0 +1,40 @@
+.mainIndex {
+    background-image: url(../assets/image/head/wallpaperbetter.com_2560x1080.jpg);
+        .fraseMain{
+    
+                  display: flex;
+                  font-size: 3rem;
+                  justify-content: center;
+                  align-items: center;  
+                  background-color:  $background-colorB;
+                  border: solid 1px black;
+    }       
+       
+  }          .novedades{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                        
+                    .titulosCar{
+                        display: flex;
+                        color: rgb(255, 255, 255);
+                        border: solid 2px black;
+                        margin-top: 70px;
+                        text-align: center;
+                        justify-content: center;
+                    }
+                }
+                         
+                        
+                        .carousel{
+                                display: flex;
+                                 width: 30vh;
+                                 height: 30vh;
+                                 justify-content: center;
+                                 align-items: center;
+                                 
+   
+                         
+                     
+                        
+  }

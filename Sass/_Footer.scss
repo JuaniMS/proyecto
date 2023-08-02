@@ -1,0 +1,26 @@
+footer{
+    background-color: bisque;
+    margin-bottom: 0px;
+
+    .informacionContacto{
+        display: flex;
+        border: solid 1px #212529;
+        justify-content: center;
+        align-items: center;
+    }.telefono{
+         display: flex;
+         align-items: center;
+         justify-content: end;
+         margin-right: 270px;
+    }.Correo{
+         display: flex;
+         justify-content:end ;
+         align-items: center;
+         margin-right: 270px;
+  
+    }.tituloContacto{
+         justify-items: center;
+         align-items: center;
+}
+
+  }
