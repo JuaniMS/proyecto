@@ -1,5 +1,7 @@
 .mainIndex {
-    background-image: url(../assets/image/head/wallpaperbetter.com_2560x1080.jpg);
+    height: 100vh;
+    width: 100vh;
+    background-image: linear-gradient(to right, #849092, #95a2a0, #a8b3af, #bdc5bd, #d3d6cd);
         .fraseMain{
     
                   display: flex;
@@ -10,7 +12,7 @@
                   border: solid 1px black;
     }       
        
-  }          .novedades{
+          .novedades{
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -26,15 +28,19 @@
                 }
                          
                         
-                        .carousel{
-                                display: flex;
-                                 width: 30vh;
-                                 height: 30vh;
-                                 justify-content: center;
-                                 align-items: center;
+                .carousel {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 50px;
+                    width: 50px;
+                }
+                .carousel-inner {
+                    text-align: center;
+                  }
                                  
    
                          
-                     
+       }                
                         
-  }
+  
