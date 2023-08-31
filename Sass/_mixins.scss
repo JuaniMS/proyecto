@@ -1,0 +1,12 @@
+@mixin titulosSection{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+@mixin titulosCar{
+    padding: 1em;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+}

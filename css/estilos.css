@@ -1,97 +1,347 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
-* {
-  margin: 0;
-  text-decoration: none;
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    text-decoration: none;
 }
 
 body {
-  background-color: bisque;
-  margin: 0;
-  font-family: "Poppins";
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
+    background-color: bisque;
 }
 
-main {
-  background-color: rgb(248, 235, 219);
+.carousel{
+    margin-top: 30px;
+    width: 37vh;
+    height: 40vh;
+   
+    
 }
-
-.mainIndex {
-  background-image: url(../assets/image/head/wallpaperbetter.com_2560x1080.jpg);
-}
-.mainIndex .fraseMain {
-  display: flex;
-  font-size: 3rem;
-  align-items: center;
+.carosel-seccion {
+  display:  flex;
   justify-content: center;
-  background-color: bisque;
-  border: solid 1px black;
 }
 
-.novedades {
+body{
+    margin: 0;
+    font-family: ("Poppins",);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color:bisque transparent
+    
+    
+  }
+
+  .mainIndex {
+   
+    background-image: linear-gradient(to left bottom, #ffffff, #fbfeff, #f4feff, #ecffff, #e8fff8, #e8feef, #ecfce5, #f5f9db, #f7f4d4, #faefce, #fceac8, #ffe4c4);
+  }
+  .mainContacto{
+    background-image: linear-gradient(to left bottom, #ffffff, #fbfeff, #f4feff, #ecffff, #e8fff8, #e8feef, #ecfce5, #f5f9db, #f7f4d4, #faefce, #fceac8, #ffe4c4);
+    width: 1905px;
+    height: 100vh;
+  }
+  
+
+  .fraseMain{
+    
+    display: flex;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    border: solid 1px black;
+  }
+
+  .novedades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer{
+    background-color: bisque;
+    margin-bottom: 0px;
+  }
+
+.informacionContacto{
+    display: flex;
+    border: solid 1px #212529;
+    justify-content: center;
+    align-items: center;
+}
+
+.telefono{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 270px;
+}
+
+.Correo{
+    display: flex;
+    justify-content:end ;
+    align-items: center;
+    margin-right: 270px;
+  
+}
+
+.contacto{
   display: flex;
+  height: 100vh;
+  width: 100vh;
+  background-color: violet;
+
+}
+
+.tituloContacto{
+  justify-items: center;
+  align-items: center;
+}
+
+.formulario{
   justify-content: center;
   align-items: center;
 }
-.novedades .titulosCar {
+
+
+
+header {
+  background-color: rgb(255, 255, 255);
+}
+
+.titulosCar{
   display: flex;
   color: rgb(255, 255, 255);
   border: solid 2px black;
   margin-top: 70px;
+}
+
+.videoConsejos {
+
   text-align: center;
   justify-content: center;
 }
 
-.carousel {
-  display: flex;
-  width: 30vh;
-  height: 30vh;
+.formulario { 
   justify-content: center;
-  align-items: center;
-}
-
-main .videoConsejos {
-  text-align: center;
-  justify-content: center;
-}
-
-.mainContacto {
-  background-image: url(../assets/image/head/166545-universo_abstracto-el_arte_abstracto-arte-arte_digital-universo-3840x2160.jpg);
-  width: 2000px;
-  height: 850px;
-}
-.mainContacto .formulario {
+  align-items: start;
+  margin-bottom: 40px;
+  margin-top: 50px;
   justify-content: center;
   align-items: start;
   margin-bottom: 10px;
 }
 
-footer {
-  background-color: bisque;
-  margin-bottom: 0px;
+.carousel-inner {
+  border: 2px black solid;
 }
-footer .informacionContacto {
+
+.titulos-seccion {
   display: flex;
-  border: solid 1px #212529;
+  justify-content: center;
+}
+
+.titulosCar{
+  display: flex;
+  justify-content: center;
+  color: black;
+  background-color: white;
+  padding: 1em;
+}
+
+@media all and (max-width: 740px) {
+
+.carousel{
+    width: 30vh;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+  .mainIndex {
+    background-image: linear-gradient(to left bottom, #ffffff, #fbfeff, #f4feff, #ecffff, #e8fff8, #e8feef, #ecfce5, #f5f9db, #f7f4d4, #faefce, #fceac8, #ffe4c4);
+  }
+  .mainContacto{
+
+    background-image: linear-gradient(to left bottom, #ffffff, #fbfeff, #f4feff, #ecffff, #e8fff8, #e8feef, #ecfce5, #f5f9db, #f7f4d4, #faefce, #fceac8, #ffe4c4);
+    width: 600px;
+    height: 250px;
+  }
+
+  .Mapa {
+    width: 300px;
+    height: 400px;
+  }
+
+  .video {
+    width: 300px;
+    height: 300px;
+  }
+
+  .fraseMain{
+    
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    border: solid 1px black;
+  }
+
+  .novedades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer{
+    background-color: bisque;
+    margin-bottom: 0px;
+  }
+
+.informacionContacto{
+    width: 30vh;
+    height: 30vh;
+    display: flex;
+    border: solid 1px #212529;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContacto{
+
+  background-image: linear-gradient(to bottom, #ffffff, #fffbff, #fff7f8, #fff4ec, #fff4e0, #fef4da, #fbf5d4, #f6f6cf, #f5f3ca, #f4f1c6, #f4eec1, #f3ebbd);
+  width: 100%;
+  width: 100vh;
+  height: 100vh;
+  }
+
+.telefono{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 15px;
+}
+
+.Correo{
+    display: flex;
+    justify-content:end ;
+    align-items: center;
+    margin-right: 15px;
+  
+}
+
+.videoConsejos {
+
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+.titulosCar{
+  display: flex;
+  justify-content: center;
+  }
+  
+.mainContacto{
+  background-image: linear-gradient(to left bottom, #ffffff, #fbfeff, #f4feff, #ecffff, #e8fff8, #e8feef, #ecfce5, #f5f9db, #f7f4d4, #faefce, #fceac8, #ffe4c4);
+  width: 360px;
+  height: 740px;
+}  
+.formulario{
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+}
+.fraseMain{
+
+  display: block;
+}  
+
+
+}
+.tituloGaleria{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 2rem;
+  color: rgb(31, 30, 30);
+}
+.divPadre{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.divImg{
+  width: 30%;
+  height: 530px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-footer .telefono {
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  margin-right: 270px;
+.divImg img{
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
 }
-footer .Correo {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  margin-right: 270px;
+
+
+@media (max-width:728px) and (min-width:360px) {
+
+  .divImg{
+    width: 50%;
+    height: 230px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .divImg img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+
+
+  
 }
-footer .tituloContacto {
-  justify-items: center;
-  align-items: center;
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+.MainAcercaDe{
+
+  background-image: linear-gradient(to left bottom, #ffffff, #fbfeff, #f4feff, #ecffff, #e8fff8, #e8feef, #ecfce5, #f5f9db, #f7f4d4, #faefce, #fceac8, #ffe4c4);
+}
+
+.mainConsejos{
+  background-image: linear-gradient(to left bottom, #ffffff, #fbfeff, #f4feff, #ecffff, #e8fff8, #e8feef, #ecfce5, #f5f9db, #f7f4d4, #faefce, #fceac8, #ffe4c4);
+}
+
+.mainGaleria{
+  background-image: linear-gradient(to bottom, #e1e0de, #e1ded5, #dfddcd, #dbdcc5, #d5dcbe, #d6ddbc, #d7ddb9, #d8deb7, #e2e0b9, #ece1bb, #f6e2bf, #ffe4c4);
+}
+
+.tituloContactoF{
+  border: solid 1px black;
+
+}
+
+.tituloInfo{
+  border: solid 1px black;
+  border-radius: 5%;
+  border-width: 3px;
+  margin-bottom: 30px;
+}
+
+.tituloCuidados{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+

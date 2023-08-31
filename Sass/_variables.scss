@@ -1,16 +1,18 @@
-//*variables//
-$colorN : color black;
-$background-colorB: Bisque ;
+$color: rgb(58, 58, 58); 
+$colordos: white;
+$rem: 1rem;
+$centro: center;
 
-// Maps*//
-$flex:(
-    start:start 
-    center:center
-    end:end
-)
+/*map*/
+$redes:(
+    facebook: blue,
+    instagram: rgb(196, 14, 251),
+    twitter: rgb(0, 153, 255)
+);
 
-$border(
-    bordeF: 1px solid black
-    BordeM: 2px solid black
-    BordeG: 5px solid black
-)
+$estilos:(
+    1rem: 1rem,
+    centro: center,
+    color: rgb(58, 58, 58),
+    colordos: white
+);
